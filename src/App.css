@@ -36,3 +36,99 @@
     transform: rotate(360deg);
   }
 }
+.mainCard{
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+}
+.singleCard{
+  padding: 10px;
+  display: flex;
+}
+.imageSize{
+  width: 40px;
+  height: 40px;
+}
+.infoCard{
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dateCard{
+  align-items: flex-end;
+}
+.chatInfo{
+  flex: 2;
+  background-color: #f0f0f0;
+}
+.parentDiv{
+  display: flex;
+  border: 1px solid;
+}
+.split1{
+
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.logoCard1{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.chatDetails{
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.botChat{
+  background-color: blue;
+}
+
+/* ChatComponent.css */
+
+.chat-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chat {
+  width: 80%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  overflow-y: scroll;
+  max-height: 500px;
+}
+
+.chat-message {
+  margin: 10px 0;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.message {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.message-bot {
+  background-color: #f0f0f0;
+}
+
+.message-user {
+  background-color: blue;
+  color: white;
+}
